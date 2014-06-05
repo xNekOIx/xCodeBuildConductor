@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22F591FC192B48BC00E8D0F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F591FB192B48BC00E8D0F3 /* Foundation.framework */; };
+		22F591FE192B48BC00E8D0F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F591FD192B48BC00E8D0F3 /* CoreGraphics.framework */; };
+		22F59200192B48BC00E8D0F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F591FF192B48BC00E8D0F3 /* UIKit.framework */; };
+		22F5920E192B48BC00E8D0F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F5920D192B48BC00E8D0F3 /* Images.xcassets */; };
+		22F59215192B48BC00E8D0F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F59214192B48BC00E8D0F3 /* XCTest.framework */; };
+		22F59216192B48BC00E8D0F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F591FB192B48BC00E8D0F3 /* Foundation.framework */; };
+		22F59217192B48BC00E8D0F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F591FF192B48BC00E8D0F3 /* UIKit.framework */; };
+		22F5922F192B4B0600E8D0F3 /* KBCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F5922E192B4B0600E8D0F3 /* KBCAppDelegate.m */; };
+		22F59236192B4CFA00E8D0F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F59235192B4CFA00E8D0F3 /* main.m */; };
+		22F59239192B4D2100E8D0F3 /* kabachok-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22F59237192B4D2100E8D0F3 /* kabachok-Info.plist */; };
+		22F5923C192B4D2800E8D0F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22F5923A192B4D2800E8D0F3 /* InfoPlist.strings */; };
+		22F5923E192B4D5600E8D0F3 /* kabachokTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F5923D192B4D5600E8D0F3 /* kabachokTests.m */; };
+		22F59240192B4D6200E8D0F3 /* kabachokTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22F5923F192B4D6200E8D0F3 /* kabachokTests-Info.plist */; };
+		22F59243192B4D6700E8D0F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22F59241192B4D6700E8D0F3 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22F59218192B48BC00E8D0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22F591F0192B48BC00E8D0F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22F591F7192B48BC00E8D0F3;
+			remoteInfo = kabachok;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22F591F8192B48BC00E8D0F3 /* kabachok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kabachok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F591FB192B48BC00E8D0F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22F591FD192B48BC00E8D0F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22F591FF192B48BC00E8D0F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22F5920D192B48BC00E8D0F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22F59213192B48BC00E8D0F3 /* kabachokTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kabachokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F59214192B48BC00E8D0F3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		22F5922D192B4B0600E8D0F3 /* KBCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBCAppDelegate.h; sourceTree = "<group>"; };
+		22F5922E192B4B0600E8D0F3 /* KBCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBCAppDelegate.m; sourceTree = "<group>"; };
+		22F59235192B4CFA00E8D0F3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		22F59237192B4D2100E8D0F3 /* kabachok-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "kabachok-Info.plist"; sourceTree = SOURCE_ROOT; };
+		22F59238192B4D2100E8D0F3 /* kabachok-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "kabachok-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		22F5923B192B4D2800E8D0F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		22F5923D192B4D5600E8D0F3 /* kabachokTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kabachokTests.m; sourceTree = "<group>"; };
+		22F5923F192B4D6200E8D0F3 /* kabachokTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "kabachokTests-Info.plist"; sourceTree = "<group>"; };
+		22F59242192B4D6700E8D0F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22F591F5192B48BC00E8D0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F591FE192B48BC00E8D0F3 /* CoreGraphics.framework in Frameworks */,
+				22F59200192B48BC00E8D0F3 /* UIKit.framework in Frameworks */,
+				22F591FC192B48BC00E8D0F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F59210192B48BC00E8D0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F59215192B48BC00E8D0F3 /* XCTest.framework in Frameworks */,
+				22F59217192B48BC00E8D0F3 /* UIKit.framework in Frameworks */,
+				22F59216192B48BC00E8D0F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22F591EF192B48BC00E8D0F3 = {
+			isa = PBXGroup;
+			children = (
+				22F5922B192B4AE300E8D0F3 /* code */,
+				22F5922A192B4AC000E8D0F3 /* sources */,
+				22F59201192B48BC00E8D0F3 /* project */,
+				22F5921A192B48BC00E8D0F3 /* tests */,
+				22F591FA192B48BC00E8D0F3 /* Frameworks */,
+				22F591F9192B48BC00E8D0F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22F591F9192B48BC00E8D0F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22F591F8192B48BC00E8D0F3 /* kabachok.app */,
+				22F59213192B48BC00E8D0F3 /* kabachokTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22F591FA192B48BC00E8D0F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22F591FB192B48BC00E8D0F3 /* Foundation.framework */,
+				22F591FD192B48BC00E8D0F3 /* CoreGraphics.framework */,
+				22F591FF192B48BC00E8D0F3 /* UIKit.framework */,
+				22F59214192B48BC00E8D0F3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22F59201192B48BC00E8D0F3 /* project */ = {
+			isa = PBXGroup;
+			children = (
+				22F59202192B48BC00E8D0F3 /* Supporting Files */,
+			);
+			name = project;
+			path = kabachok;
+			sourceTree = "<group>";
+		};
+		22F59202192B48BC00E8D0F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22F59235192B4CFA00E8D0F3 /* main.m */,
+				22F5923A192B4D2800E8D0F3 /* InfoPlist.strings */,
+				22F59237192B4D2100E8D0F3 /* kabachok-Info.plist */,
+				22F59238192B4D2100E8D0F3 /* kabachok-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22F5921A192B48BC00E8D0F3 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				22F5923D192B4D5600E8D0F3 /* kabachokTests.m */,
+				22F5921B192B48BC00E8D0F3 /* Supporting Files */,
+			);
+			name = tests;
+			path = ../tests;
+			sourceTree = "<group>";
+		};
+		22F5921B192B48BC00E8D0F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22F5923F192B4D6200E8D0F3 /* kabachokTests-Info.plist */,
+				22F59241192B4D6700E8D0F3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22F5922A192B4AC000E8D0F3 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				22F5920D192B48BC00E8D0F3 /* Images.xcassets */,
+			);
+			name = sources;
+			path = ../sources;
+			sourceTree = "<group>";
+		};
+		22F5922B192B4AE300E8D0F3 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				22F5922C192B4B0600E8D0F3 /* main */,
+			);
+			name = code;
+			path = ../code;
+			sourceTree = "<group>";
+		};
+		22F5922C192B4B0600E8D0F3 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				22F5922D192B4B0600E8D0F3 /* KBCAppDelegate.h */,
+				22F5922E192B4B0600E8D0F3 /* KBCAppDelegate.m */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22F591F7192B48BC00E8D0F3 /* kabachok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F59224192B48BC00E8D0F3 /* Build configuration list for PBXNativeTarget "kabachok" */;
+			buildPhases = (
+				22F591F4192B48BC00E8D0F3 /* Sources */,
+				22F591F5192B48BC00E8D0F3 /* Frameworks */,
+				22F591F6192B48BC00E8D0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kabachok;
+			productName = kabachok;
+			productReference = 22F591F8192B48BC00E8D0F3 /* kabachok.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22F59212192B48BC00E8D0F3 /* kabachokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F59227192B48BC00E8D0F3 /* Build configuration list for PBXNativeTarget "kabachokTests" */;
+			buildPhases = (
+				22F5920F192B48BC00E8D0F3 /* Sources */,
+				22F59210192B48BC00E8D0F3 /* Frameworks */,
+				22F59211192B48BC00E8D0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22F59219192B48BC00E8D0F3 /* PBXTargetDependency */,
+			);
+			name = kabachokTests;
+			productName = kabachokTests;
+			productReference = 22F59213192B48BC00E8D0F3 /* kabachokTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22F591F0192B48BC00E8D0F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KBC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = NekOI;
+				TargetAttributes = {
+					22F59212192B48BC00E8D0F3 = {
+						TestTargetID = 22F591F7192B48BC00E8D0F3;
+					};
+				};
+			};
+			buildConfigurationList = 22F591F3192B48BC00E8D0F3 /* Build configuration list for PBXProject "kabachok" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22F591EF192B48BC00E8D0F3;
+			productRefGroup = 22F591F9192B48BC00E8D0F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22F591F7192B48BC00E8D0F3 /* kabachok */,
+				22F59212192B48BC00E8D0F3 /* kabachokTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22F591F6192B48BC00E8D0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F59239192B4D2100E8D0F3 /* kabachok-Info.plist in Resources */,
+				22F5923C192B4D2800E8D0F3 /* InfoPlist.strings in Resources */,
+				22F5920E192B48BC00E8D0F3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F59211192B48BC00E8D0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F59240192B4D6200E8D0F3 /* kabachokTests-Info.plist in Resources */,
+				22F59243192B4D6700E8D0F3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22F591F4192B48BC00E8D0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F59236192B4CFA00E8D0F3 /* main.m in Sources */,
+				22F5922F192B4B0600E8D0F3 /* KBCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F5920F192B48BC00E8D0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F5923E192B4D5600E8D0F3 /* kabachokTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22F59219192B48BC00E8D0F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22F591F7192B48BC00E8D0F3 /* kabachok */;
+			targetProxy = 22F59218192B48BC00E8D0F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22F5923A192B4D2800E8D0F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22F5923B192B4D2800E8D0F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22F59241192B4D6700E8D0F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22F59242192B4D6700E8D0F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22F59222192B48BC00E8D0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22F59223192B48BC00E8D0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22F59225192B48BC00E8D0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kabachok-Prefix.pch";
+				INFOPLIST_FILE = "kabachok-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22F59226192B48BC00E8D0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kabachok-Prefix.pch";
+				INFOPLIST_FILE = "kabachok-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		22F59228192B48BC00E8D0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kabachok.app/kabachok";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kabachok-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "../tests/kabachokTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		22F59229192B48BC00E8D0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kabachok.app/kabachok";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kabachok-Prefix.pch";
+				INFOPLIST_FILE = "../tests/kabachokTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22F591F3192B48BC00E8D0F3 /* Build configuration list for PBXProject "kabachok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F59222192B48BC00E8D0F3 /* Debug */,
+				22F59223192B48BC00E8D0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F59224192B48BC00E8D0F3 /* Build configuration list for PBXNativeTarget "kabachok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F59225192B48BC00E8D0F3 /* Debug */,
+				22F59226192B48BC00E8D0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F59227192B48BC00E8D0F3 /* Build configuration list for PBXNativeTarget "kabachokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F59228192B48BC00E8D0F3 /* Debug */,
+				22F59229192B48BC00E8D0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22F591F0192B48BC00E8D0F3 /* Project object */;
+}

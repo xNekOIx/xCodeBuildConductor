@@ -1,3 +1,5 @@
+require 'yaml'
+
 module ScriptHouse
 
 	class TODO < ScriptBundle
@@ -12,13 +14,15 @@ module ScriptHouse
 		def initialize(hook_name, scheme_name)
 			@hook_name = hook_name
 			@scheme_name = scheme_name
-			@config = YAML::load_file()
+			@config = YAML::load_file("сonfiguration.yml")['todo']
 		end
 
 		def handle
+
 		end
 
 		def pre_source_build_hook
+
 		end
 
 		def execute

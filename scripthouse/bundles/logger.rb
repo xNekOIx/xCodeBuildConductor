@@ -2,8 +2,8 @@ module ScriptHouse
 
 	class Logger < ScriptBundle
 
-		def Logger.handleHook(hookName, schemeName)
-			puts "hook name is #{hookName} and scheme name is #{schemeName}"
+		def self.handle_hook(hook_name, scheme_name)
+			puts "hook name is #{hook_name} and scheme name is #{scheme_name}"
 			puts ENV.to_hash
 		end
 	end

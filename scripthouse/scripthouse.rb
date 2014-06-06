@@ -3,4 +3,4 @@
 require './core/dispatch'
 include ScriptHouse
 
-handleHook(ARGV[0], ARGV[1])
+handle_hook(ARGV[0], ARGV[1])

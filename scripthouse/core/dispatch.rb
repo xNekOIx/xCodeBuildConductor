@@ -2,7 +2,7 @@ require './loader'
 
 module ScriptHouse
 
-	def handleHook(hookName, schemeName)
-		loadBundles().each { |bundle| bundle.handleHook(hookName, schemeName) }
+	def handle_hook(hook_name, scheme_name)
+		load_bundles().each { |bundle| bundle.handle_hook(hook_name, scheme_name) }
 	end
 end

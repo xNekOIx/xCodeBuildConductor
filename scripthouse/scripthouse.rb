@@ -2,4 +2,4 @@
 
 require './core/dispatch'
 
-handle_hook(ARGV[0], ARGV[1])
+handle_hook(ARGV[0])

@@ -1,9 +1,9 @@
 
-logger:
+todo:
     default:
         files: [".h", ".m", ".mm"]
         keywords: ['TODO:', 'FIXME:', '???:', '!!!:']
 
-todo:
+logger:
     default:
         log-file-path: "~/log.txt"
